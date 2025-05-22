@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.wholepage{
+    margin-left: 350px;
+    margin-top: 80px;
+    margin-bottom: 120px;
+    background-color: seashell;
+    width: 550px;
+    justify-items: center;
+    border-radius: 30px;
+    
+    
+}
+
+.one img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    z-index: 1;
+    left: 200px;
+    top: 50px;
+    
+
+}
+
+.two img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    z-index: 2;
+    left: 230px;
+    top: 70px;
+    
+}
+
+.three img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    z-index: 3;
+    left: 260px;
+    top: 90px;
+   
+}
+
+.four img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    z-index: 4;
+    left: 290px;
+    top: 110px;
+   
+}
+
+.mirrors{
+    position: relative;
+    right: 320px;
+    
+}
+
+
+.belowitems{
+    margin-top: 290px;
+    padding-top: 20px;
+    position: relative;
+    bottom: 20px;
+
+}
+
+.items img{
+    width: 120px;
+    height: 120px;
+    border-radius: 25px;
+
+}
+
+
+
+.price{
+    padding-top : 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display:flex;
+    gap: 10px;
+    position: relative;
+    bottom: 10px;
+   
+}
+.seemore{
+    color: blue;
+    margin-top: 15px;
+}
+.price p{
+    color:green;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.heading{
+    position: relative;
+    right: 180px;
+    top: 20px;
+}

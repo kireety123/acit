@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Input Types with Dropdown, Radio, Checkbox</title>
+</head>
+<body>
+
+    <h1>Complete HTML5 Form Example</h1>
+
+    <form action="#">
+
+        <!-- Text -->
+        <label for="text">Text:</label>
+        <input type="text" id="text" placeholder="Enter text" required minlength="3" maxlength="5"><br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="example@example.com"><br><br>
+
+        <!-- Password -->
+        <label for="password">Password:</label>
+        <input type="password" id="password"><br><br>
+
+        <!-- Date -->
+        <label for="date">Date:</label>
+        <input type="date" id="date"><br><br>
+
+        <!-- Time -->
+        <label for="time">Time:</label>
+        <input type="time" id="time"><br><br>
+
+        <!-- Datetime-local -->
+        <label for="datetime-local">Datetime Local:</label>
+        <input type="datetime-local" id="datetime-local"><br><br>
+
+        <!-- Month -->
+        <label for="month">Month:</label>
+        <input type="month" id="month"><br><br>
+
+        <!-- Week -->
+        <label for="week">Week:</label>
+        <input type="week" id="week"><br><br>
+
+        <!-- Tel -->
+        <label for="tel">Telephone:</label>
+        <input type="tel" id="tel" placeholder="123-456-7890"><br><br>
+
+        <!-- Number -->
+        <label for="number">Number:</label>
+        <input type="number" id="number" min="0" max="100"><br><br>
+
+        <!-- URL -->
+        <label for="url">URL:</label>
+        <input type="url" id="url" placeholder="https://example.com"><br><br>
+
+        <!-- Search -->
+        <label for="search">Search:</label>
+        <input type="search" id="search" placeholder="Search..."><br><br>
+
+        <!-- Color -->
+        <label for="color">Color:</label>
+        <input type="color" id="color"><br><br>
+
+        <!-- Range -->
+        <label for="range">Range:</label>
+        <input type="range" id="range" min="0" max="100" step="10"><br><br>
+
+        <!-- Dropdown -->
+        <label for="dropdown">Select a Country:</label>
+        <select id="dropdown" name="country">
+            <option value="">--Select--</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="india">India</option>
+            <option value="australia">Australia</option>
+        </select><br><br>
+
+        <!-- Radio Buttons -->
+        <label>Gender:</label><br>
+
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+        <!-- Checkboxes -->
+        <label>Hobbies:</label><br>
+        <input type="checkbox" id="hobby1" name="hobby" value="reading">
+        <label for="hobby1">Reading</label><br>
+        <input type="checkbox" id="hobby2" name="hobby" value="traveling">
+        <label for="hobby2">Traveling</label><br>
+        <input type="checkbox" id="hobby3" name="hobby" value="music">
+        <label for="hobby3">Music</label><br><br>
+
+        <!-- Submit -->
+        <input type="submit" value="Request OTP">
+
+    </form>
+
+
+
+
+
+    
+
+</body>
+</html>
