@@ -1,0 +1,194 @@
+
+.wholepage{
+    margin-left: 460px;
+    margin-right: 460px;
+    background-color:; 
+    font-size: larger;
+    font-weight: bolder;
+}
+.name{
+    align-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    padding-top: 10px;
+}
+.name h3{
+    font-style: oblique;
+}
+.name ul {
+    display: flex;
+    gap: 30px;   
+    margin-right: 50px;
+}
+li{
+   display: flex;
+}
+.heads{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.hpb h2{
+    position: relative;
+    right: 180px;
+}
+.hpb button{
+    position: relative;
+    right: 190px;
+    width: 210px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.hpb p{
+    position: relative;
+    right: 10px;
+    justify-items: start;
+}
+.heads img{
+    width: 130px;
+    height:130px;
+    border-radius: 50%;
+    display: flex;
+    left: 120px;
+}
+.images img{
+     width: 130px;
+    height:130px;
+    border-radius: 50%;
+    display: flex;
+}
+.sw {
+     display: flex;   
+    border: 1px solid grey;
+    border-radius: 30px;
+    width: 650px;
+    height:150px;
+   margin: 10px;   
+}
+.sweb H4{
+    position: relative;
+    right: 220px;
+}
+.num{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    top: 25px;
+    left: 30px;
+    
+    
+}
+.dw{
+     display: flex;   
+    border: 1px solid grey;
+    border-radius: 30px;
+    width: 650px;
+    height:150px;
+   margin: 10px;
+}
+.dweb h4{
+     position: relative;
+    right: 210px;
+
+}
+.number{
+    position: relative;
+    width: 23px;
+    height: 23px;
+    top: 25px;
+    left: 30px;
+   
+    
+}
+.boxes{
+    display: flex;
+    gap: 5px; 
+    
+    bottom:100px;
+}
+.box1{
+    background-color: rgb(175, 242, 242);
+    border: 1px solid aqua;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    margin-left: 10px;
+    padding-top: 40px;
+}
+ .image1 img{
+    position: relative;
+    top: 175px;
+    right: 180px;
+    border: 2px solid yellow;
+}
+.box2{
+     background-color: rgb(187, 223, 101);
+    border: 1px solid rgb(195, 255, 0);
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    margin-right: 10px;
+    padding-top: 40px;
+}
+.image2 img{
+    position: relative;
+    top: 50px;
+    left: 200px;
+    border: 2px solid blue;
+}
+.mighty{
+    position:relative;
+    bottom: 120px;
+}
+.details h3{
+    position: relative;
+    right: 210px;
+}
+.details{
+    border: 1px solid gray;
+    position: relative;
+    bottom: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+.details p{
+    position: relative;
+    right:17px;
+}
+#names{
+    position: relative;
+    height: 40px;
+    width:300px;
+    right: 10px;
+    border-radius: 10px;
+}
+#emails{
+    position: relative;
+    height: 40px;
+    width:300px;
+    border-radius: 10px;
+}
+.values{
+    display: flex;
+    justify-content: space-evenly;
+}
+#ideas{
+    position: relative;
+    width:93%;
+    height:100px;
+    border-radius: 10px;
+    right:3px;
+}
+.details button{
+    position: relative;
+    right: 270px;
+    background-color:blueviolet;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
