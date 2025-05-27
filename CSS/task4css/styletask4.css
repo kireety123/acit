@@ -1,10 +1,12 @@
 
 .wholepage{
-    margin-left: 460px;
+     margin-left: 460px;
     margin-right: 460px;
-    background-color:; 
+     
     font-size: larger;
-    font-weight: bolder;
+    font-weight: bolder; 
+   
+    
 }
 .name{
     align-content: space-between;
@@ -31,11 +33,11 @@ li{
 }
 .hpb h2{
     position: relative;
-    right: 180px;
+    left: -10px;
 }
 .hpb button{
     position: relative;
-    right: 190px;
+    left: -10px;
     width: 210px;
     height: 30px;
     border-radius: 10px;
@@ -45,7 +47,7 @@ li{
 .hpb p{
     position: relative;
     right: 10px;
-    justify-items: start;
+   
 }
 .heads img{
     width: 130px;
@@ -70,7 +72,7 @@ li{
 }
 .sweb H4{
     position: relative;
-    right: 220px;
+    right: -30px;
 }
 .num{
     position: relative;
@@ -91,7 +93,7 @@ li{
 }
 .dweb h4{
      position: relative;
-    right: 210px;
+    right: -30px;
 
 }
 .number{
@@ -117,11 +119,12 @@ li{
     border-radius: 20px;
     margin-left: 10px;
     padding-top: 40px;
+    padding-left: 10px;
 }
  .image1 img{
     position: relative;
     top: 175px;
-    right: 180px;
+    right:-120px;
     border: 2px solid yellow;
 }
 .box2{
@@ -132,11 +135,12 @@ li{
     border-radius: 20px;
     margin-right: 10px;
     padding-top: 40px;
+    padding-left: 10px;
 }
 .image2 img{
     position: relative;
     top: 50px;
-    left: 200px;
+    right: -500px;
     border: 2px solid blue;
 }
 .mighty{
@@ -145,7 +149,7 @@ li{
 }
 .details h3{
     position: relative;
-    right: 210px;
+    right: -10px;
 }
 .details{
     border: 1px solid gray;
@@ -157,7 +161,7 @@ li{
 }
 .details p{
     position: relative;
-    right:17px;
+    right:-10px;
 }
 #names{
     position: relative;
@@ -181,11 +185,11 @@ li{
     width:93%;
     height:100px;
     border-radius: 10px;
-    right:3px;
+    right:-20px;
 }
 .details button{
     position: relative;
-    right: 270px;
+    right: -10px;
     background-color:blueviolet;
     color: white;
     padding: 10px;
