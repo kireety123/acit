@@ -42,7 +42,7 @@
 }
 .subscribe button{
     position: relative;
-    top: 30px;
+    top: 28px;
     right:0px;
     background-color: black;
     color: white;
@@ -439,16 +439,5 @@ button:hover{
 
 body{
     overflow-x: hidden;
-}
-i{
-    position: relative;
-    left: 25px;
-
-}
-.searchbar i{
-    position: relative;
-    top: 35px;
-    font-size: medium;
-    
 }
 
