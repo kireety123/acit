@@ -1,0 +1,443 @@
+.wholepage{
+     font-size: larger;
+    font-weight: bolder;
+    margin-left: 300px;
+    margin-right: 400px;
+    
+
+}
+
+
+
+
+.achieverslogo img{
+    position: relative;
+    right: 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+} 
+.headerlists ul{
+    display: flex;
+    gap:20px;
+    position: relative;
+    top: 18px; 
+    list-style: none; 
+    right: 70px;
+}
+.instalogos img{
+    width: 200px;
+    height: 60px;
+    position: relative;
+    top: 17px;
+    right: 40px;
+}
+.searchbar img{
+    width:30px;
+    height:30px;
+    position: relative;
+    top:30px;
+    right: 40px;
+}
+.subscribe button{
+    position: relative;
+    top: 28px;
+    right:0px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    border-radius: 10px;
+}
+.upper{
+    display: flex;
+    
+    
+
+}
+.lifeimage img{
+    width:500px;
+    height:300px;
+    border-radius: 20px;
+}
+.lifestyle img{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+}
+.para p{
+    position: relative;
+    left:60px;
+    bottom:60px;
+}
+.lifestyle{
+    padding-left: 30px;
+}
+
+.lifestyle button{
+    color: white;
+    background-color: rgb(203, 13, 70);
+    border-radius: 10px;
+
+}
+.sub{
+    display: flex;
+}
+.techimage img{
+    width:250px;
+    height:200px;
+    border-radius: 20px;
+}
+.tech{
+    display: flex;
+    
+}
+.travelimage img{
+    width:250px;
+    height:200px;
+    border-radius: 20px;
+}
+.travel{
+    display:flex;
+    padding-left: 90px;
+    margin-right: 0px;
+    margin-left: 20px;
+}
+.technology{
+    padding-left: 20px;
+}
+.travelling{
+    padding-left: 20px;
+}
+.technology button{
+    color: blue;
+    background-color: rgb(140, 140, 236);
+    border-radius: 10px;
+}
+.travelling button{
+    color: green;
+    background-color: rgb(161, 203, 161);
+    border-radius: 10px;
+}
+.home{
+    padding-top: 30px;
+}
+.oneimages{
+    display: flex;
+    gap:50px;
+    
+}
+.onefimage img{
+    width:300px;
+    height:300px;
+    border-radius: 10px;
+}
+.onesimage img{
+    width:300px;
+    height:300px;
+    border-radius: 10px;
+}
+.onetimage img{
+    width:300px;
+    height:300px;
+    border-radius: 10px;
+}
+.onefparas img{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.onesparas img{
+     width:50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.onetparas img{
+     width:50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.twoimages{
+      display: flex;
+    gap:50px;
+}
+.twofimage img{
+    width:300px;
+    height:300px;
+    border-radius: 10px
+}
+.twosimage img{
+    width:300px;
+    height:300px;
+    border-radius: 10px
+}
+.twotimage img{
+    width:300px;
+    height:300px;
+    border-radius: 10px
+}
+.twofparas img{
+     width:50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.twosparas img{
+     width:50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.twotparas img{
+     width:50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.onetparas h3{
+    width:230px;
+   
+}
+.onetparas p{
+    font-weight: lighter;
+    width:320px;
+
+}
+
+.onesparas h3{
+    width:230px;
+   
+}
+.onesparas p{
+    font-weight: lighter;
+    width:320px;
+
+}
+
+.onefparas h3{
+    width:230px;
+   
+}
+.onefparas p{
+    font-weight: lighter;
+    width:320px;
+
+}
+
+.twotparas h3{
+    width:230px;
+   
+}
+.twotparas p{
+    font-weight: lighter;
+    width:320px;
+
+}
+
+.twofparas h3{
+    width:230px;
+   
+}
+.twofparas p{
+    font-weight: lighter;
+    width:320px;
+
+}
+
+.twosparas h3{
+    width:230px;
+   
+}
+.twosparas p{
+    font-weight: lighter;
+    width:320px;
+
+}
+
+.para button{
+    color:blueviolet;
+    background-color: rgb(187, 174, 199);
+    border-radius: 10px;
+    position: relative;
+    bottom:275px;
+    left: 200px;
+}
+.onefparas{
+    position: relative;
+    left: 360px;
+    bottom: 318px;
+}
+.onesparas{
+    position: relative;
+    left: 710px;
+    bottom: 638px;
+
+}
+.twofparas{
+     position: relative;
+    left: 360px;
+    bottom: 318px;
+}
+.twosparas{
+    position: relative;
+    left: 710px;
+    bottom: 638px;
+}
+.foothead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.authorcontents{
+    display:flex;
+    gap: 80px;
+    position: relative;
+    top: 30px;
+    padding-bottom: 20px;
+}
+.a1image img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+}
+.a2image img{
+     width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+}
+.a3image img{
+     width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+}
+.a1{
+    display: flex;
+    border: 1px solid green;
+    background-color: rgb(162, 211, 162);
+    border-radius: 10px;
+    padding: 10px;
+}
+.a2{
+    display: flex;
+    border: 1px solid blue;
+    background-color: rgb(77, 72, 220);
+    border-radius: 10px;
+    padding: 10px;
+}
+.a3{
+    display:flex;
+    border: 1px solid yellow;
+    background-color: rgb(220, 241, 31);
+    border-radius: 10px;
+    padding: 10px;
+}
+.subnew{
+    display: flex;
+    margin-top: 60px;
+    border: 1px solid gainsboro;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-weight: lighter;
+}
+.subcont p{
+    width: 320px;
+    font-weight: lighter;
+}
+.subbutton button{
+    background-color: black;
+    color: white;
+    position: relative;
+    right: 80px;
+}
+.footerflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: lighter;
+}
+.follow img{
+     width: 200px;
+    height: 60px;
+    position: relative;
+    top: 20px;
+}
+.follow p{
+    position: relative;
+    bottom: 20px;
+}
+.lists ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.arrow button{
+    background-color: black;
+    color: white;
+    align-items: center;
+    width: 30px;
+    height: 30px;   
+}
+
+.browse p{
+    border: 1px solid black;
+    background-color:white;
+    color: black;
+    width: 150px;
+    position: relative;
+    left: 400px;
+    bottom: 1250px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.upperdetails{
+    margin-top: 90px;
+}
+.upperdetails h1{
+    display: flex;
+    justify-content: center;
+}
+.upperdetails p{
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+    font-size: medium;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+.buttons button{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding:10px;
+    font-size: medium;
+    font-weight: bold;
+}
+button:hover{
+    color: white;
+    background-color: black;
+}
+.tworow{
+    position: relative;
+    bottom: 600px;
+}
+.onerow{
+    position: relative;
+    top: 50px;
+}
+.footer{
+    position: relative;
+    bottom:1200px;
+}
+
+body{
+    overflow-x: hidden;
+}
+
