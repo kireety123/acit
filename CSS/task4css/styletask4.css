@@ -14,7 +14,23 @@
     justify-content: space-between;
     margin-left: 50px;
     padding-top: 10px;
+    position: relative;
+    animation-name: namely;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
 }
+@keyframes namely{
+    from{
+        top: -100px;
+    }
+    to{
+        top:10px;
+    }
+}
+
 .name h3{
     font-style: oblique;
 }
@@ -30,7 +46,30 @@ li{
     display: flex;
     justify-content: center;
     padding: 30px;
+    position: relative;
+    
 }
+.hpb{
+    position: relative;
+    animation-name: hpb;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+@keyframes hpb{
+    from{
+        left: -500px;
+    }
+    to{
+        left: 0px;
+    }
+}
+
+    
+
 .hpb h2{
     position: relative;
     left: -10px;
@@ -54,7 +93,28 @@ li{
     height:130px;
     border-radius: 50%;
     display: flex;
-    left: 120px;
+    position: relative;
+    
+    top: 20px;
+}
+.image{
+    position: relative;
+    animation-name: image;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+
+}
+@keyframes image{
+    from{
+        right:-500px;
+    }
+    to{
+        right:0px;
+    }
 }
 .images img{
      width: 130px;
@@ -69,6 +129,23 @@ li{
     width: 650px;
     height:150px;
    margin: 10px;   
+  
+    position: relative;
+    animation-name: sw;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+@keyframes sw{
+    from{
+        right: -700px;
+    }
+    to{
+        right: 0px;
+    }
 }
 .sweb H4{
     position: relative;
@@ -90,6 +167,22 @@ li{
     width: 650px;
     height:150px;
    margin: 10px;
+    position: relative;
+    animation-name: dw;
+    animation-duration: 2s;
+    animation-timing-function:ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+@keyframes dw{
+    from{
+        left: -500px;
+    }
+    to{
+        left: 0px;
+    }
 }
 .dweb h4{
      position: relative;
