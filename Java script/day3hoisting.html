@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOISTING</title>
+</head>
+<body>
+  
+    JavaScript Notes: Hoisting
+ ____________________________________
+
+
+🔹 What is Hoisting?
+
+Hoisting is JavaScripts default behavior of moving variable and function declarations 
+to the top of their scope before code execution.
+
+- Only declarations are hoisted, not initializations.
+- Functions are fully hoisted.
+- var is hoisted with "undefined".
+- let and const are hoisted but not initialized (they stay in TDZ - Temporal Dead Zone).
+
+
+
+ 1. Hoisting with var
+___________________________
+
+console.log(a); // undefined
+var a = 10;
+
+Explanation:
+
+JavaScript internally behaves like:
+var a;
+console.log(a); // undefined
+a = 10;
+
+
+ 2. Hoisting with let and const
+ ____________________________________
+
+console.log(b); // ReferenceError
+let b = 20;
+
+console.log(c); // ReferenceError
+const c = 30;
+
+Explanation:
+
+let and const are hoisted but not initialized.
+Accessing them before declaration causes ReferenceError due to TDZ.
+
+
+ 3. Temporal Dead Zone (TDZ)
+  ____________________________________
+
+{
+  // TDZ starts
+  // console.log(x); // ReferenceError
+  let x = 5;        // TDZ ends
+  console.log(x);   // 5
+}
+
+TDZ: The time between entering the scope and the actual declaration line.
+
+
+ 4. Function Hoisting
+ ____________________________________
+
+
+ Function Declarations ARE hoisted:
+
+greet(); // Works
+function greet() {
+  console.log("Hello!");
+}
+
+ Function Expressions ARE NOT hoisted:
+
+sayHi(); // TypeError: sayHi is not a function
+var sayHi = function() {
+  console.log("Hi!");
+};
+
+
+5. Combined Example
+ ____________________________________
+
+
+console.log(x); // undefined
+var x = 10;
+
+try {
+  console.log(y); // ReferenceError
+}  catch (e) {
+  console.log("Error accessing y:", e.message);
+}
+let y = 20;
+
+try {
+  console.log(z); // ReferenceError
+} catch (e) {
+  console.log("Error accessing z:", e.message);
+}
+const z = 30;
+
+greet(); // Works
+function greet() {
+  console.log("Hello from hoisted function!");
+}
+
+try {
+  speak(); // TypeError
+} catch (e) {
+  console.log("Error calling speak:", e.message);
+}
+var speak = function () {
+  console.log("This is a function expression.");
+};
+
+ 
+
+- Always declare variables at the top of their scope.
+- Use let and const instead of var to avoid confusion.
+- Avoid accessing variables before declaring them.
+- Prefer function declarations over function expressions when hoisting is needed.
+
+</body>
+</html>
