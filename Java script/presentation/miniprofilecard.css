@@ -1,0 +1,90 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.profilecards{
+ display: flex;
+ gap: 50px;
+ 
+ 
+}
+
+.miniprofilecard0{
+    display: flex;
+    border: 1px solid black;
+    background-color: blanchedalmond;
+    color: black;
+    gap: 50px;
+    padding: 20px;
+    margin-top: 300px;
+    margin-left: 80px;
+    position: relative;
+    left: 140px;
+    height: 200px;
+}
+.image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+.miniprofilecard1{
+    display: flex;
+    border: 1px solid black;
+    background-color: blanchedalmond;
+    color: black;
+    gap: 50px;
+    padding: 20px;
+    margin-top: 20px;
+    position: relative;
+    left: 50px;
+    height: 200px;
+    margin-left: 40px;
+}
+.image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.miniprofilecard2{
+    display: flex;
+    border: 1px solid black;
+    background-color: blanchedalmond;
+    color: black;
+    gap: 50px;
+    padding: 20px;
+    position: relative;
+    left: 20px;
+    margin-top: 300px;
+    height: 200px;
+}
+.image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.miniprofilecard3{
+    display: flex;
+    border: 1px solid black;
+    background-color: blanchedalmond;
+    color: black;
+    gap: 50px;
+    padding: 20px;
+    margin-top: 580px;
+    position: relative;
+    right: 910px;
+    height: 200px;
+}
+.image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
