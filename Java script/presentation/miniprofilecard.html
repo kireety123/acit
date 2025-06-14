@@ -7,7 +7,13 @@
     <link rel="stylesheet" href="miniprofilecard.css">
 </head>
 <body>
-    <div class="profilecards">
+<!-- 2nd method only placing one div and giving id to div, it linked to 2nd method using for  -->
+     <div id="miniprofile"></div>
+
+
+     <!-- 1st method writing html, and giving id to tags, it linked to 1st method and 1st method using for   -->
+
+      <!-- <div class="profilecards">
     <div class="miniprofilecard0">
         <div class="details">
     <h2 id="name0"></h2>
@@ -47,17 +53,17 @@
         <img src="./assets/sir2.jpeg" alt="raghava sir">
     </div>
 
-    </div>
-    </div>
+    </div> 
+     </div>   -->
     <script>
-            // Iam creating an object
+            // Iam creating an object, declaring a variable for array and giving elements.
            
           
             let persondetails=[{
                 NAME: " KIREETYVARMA",
                 AGE: " 19",
                 LOCATION: "HYDERABAD"
-
+               
             }
             
             
@@ -79,20 +85,42 @@
             }
         ] 
 
+
+        for (let i = 0; i < persondetails.length; i++) {
+            let finaldetails=document.getElementById("miniprofile")
+         // 1st method using for and i 
+        //   document.getElementById("name"+i).innerText=persondetails[i].NAME
+        //   document.getElementById("age"+i).innerText=persondetails[i].AGE
+        //   document.getElementById("location"+i).innerText=persondetails[i].LOCATION
+
+
+          // 2nd method using for , directly writing html in js 
+        // 
+            finaldetails.innerHTML+=`<div>
+                <div class="details">
+                 <h2 id="name0">${persondetails[i].NAME}</h2>
+    <h2 id="age0">${persondetails[i].AGE}</h2>
+    <h2 id="location0">${persondetails[i].LOCATION}</h2></div>
+    <div class="image">
+        <img src="./assets/WhatsApp Image 2025-06-13 at 12.38.34 PM.jpeg" alt="myimage">
+    </div>
+                
+                </div>`
+        }
         
-       
-         document.getElementById("name0").innerText=persondetails[0].NAME
-         document.getElementById("age0").innerText=persondetails[0].AGE
-         document.getElementById("location0").innerText=persondetails[0].LOCATION
-         document.getElementById("name1").innerText=persondetails[1].NAME
-         document.getElementById("age1").innerText=persondetails[1].AGE
-         document.getElementById("location1").innerText=persondetails[1].LOCATION
-         document.getElementById("name2").innerText=persondetails[2].NAME
-         document.getElementById("age2").innerText=persondetails[2].AGE
-         document.getElementById("location2").innerText=persondetails[2].LOCATION
-         document.getElementById("name3").innerText=persondetails[3].NAME
-         document.getElementById("age3").innerText=persondetails[3].AGE
-         document.getElementById("location3").innerText=persondetails[3].LOCATION
+       // first method
+        //   document.getElementById("name0").innerText=persondetails[0].NAME
+        //   document.getElementById("age0").innerText=persondetails[0].AGE
+        //   document.getElementById("location0").innerText=persondetails[0].LOCATION
+        //   document.getElementById("name1").innerText=persondetails[1].NAME
+        //   document.getElementById("age1").innerText=persondetails[1].AGE
+        //   document.getElementById("location1").innerText=persondetails[1].LOCATION
+        //   document.getElementById("name2").innerText=persondetails[2].NAME
+        //   document.getElementById("age2").innerText=persondetails[2].AGE
+        //   document.getElementById("location2").innerText=persondetails[2].LOCATION
+        //   document.getElementById("name3").innerText=persondetails[3].NAME
+        //   document.getElementById("age3").innerText=persondetails[3].AGE
+        //   document.getElementById("location3").innerText=persondetails[3].LOCATION
     </script>
 </body>
 </html>

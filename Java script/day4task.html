@@ -8,261 +8,249 @@
 <body>
   <h1>welcome to java script</h1>
     <script>
-        /* 1st question: 1. A global variable username = "admin" is declared. Inside a function, log it, then
-redeclare using var username = "guest". What will be the output and why?*/
-     var username="admin";
+//         /* 1st question: 1. A global variable username = "admin" is declared. Inside a function, log it, then
+// redeclare using var username = "guest". What will be the output and why?*/
+//      var username="admin";
      
-    function question1(){
+//     function question1(){
       
-        console.log(username);// i think output is undefined because in functions it will scan function first so the guest var will hoist at top and gives undefined due to var 
-        var username="guest";
-     }
-    question1();
+//         console.log(username);// i think output is undefined because in functions it will scan function first so the guest var will hoist at top and gives undefined due to var 
+//         var username="guest";
+//      }
+//     question1();
      
      
 
-     /* 2. Declare let status = "online" globally. Inside a function, update its value without
-redeclaring. Then try to redeclare it using let. What happens? */
-    /* let status="online";
+//      /* 2. Declare let status = "online" globally. Inside a function, update its value without
+// redeclaring. Then try to redeclare it using let. What happens? */
+//      let status="online";
     
      
-      function question2(){
-         status="offline";
-         let status="offline"; //so in this case i think let can be declared because the scope is changing , as in function scope we can declare let again
+//       function question2(){
+//          status="offline";
+//          let status="offline"; //so in this case i think let can be declared because the scope is changing , as in function scope we can declare let again
 
-      }
-     question2();*/   // but the answer is it cannot access before initialization
+//       }
+//      question2();  // but the answer is it cannot access before initialization
 
-     /* 3. Create a global variable title = "JavaScript". Inside a loop in a function, modify the title
-and check if the change is visible outside the function. */
-     var title="Javascript";
-     function question3(){
-      for(i=0;i<2;i++);
-         title="python";
+//      /* 3. Create a global variable title = "JavaScript". Inside a loop in a function, modify the title
+// and check if the change is visible outside the function. */
+//      var title="Javascript";
+//      function question3(){
+//       for(i=0;i<2;i++);
+//          title="python";
       
       
-     }
+//      }
      
-     console.log(title);// title is not changed
+//      console.log(title);// title is not changed
 
-    /* 4. Declare a = 10 and b = 20 globally. Change them inside a function. What happens to
-the global values?*/
-      var a=10;
-      var b=20;
-      function question4(){
-        a=30;
-        b=20;
-        console.log(a);//30
-        console.log(b);//20
-      }
-      question4();
+//     /* 4. Declare a = 10 and b = 20 globally. Change them inside a function. What happens to
+// the global values?*/
+//       var a=10;
+//       var b=20;
+//       function question4(){
+//         a=30;
+//         b=20;
+//         console.log(a);//30
+//         console.log(b);//20
+//       }
+//       question4();
 
-    console.log(a);//30
-    console.log(b);//20
+//     console.log(a);//30
+//     console.log(b);//20
       
       
 
-     /* 5. Declare var role = "teacher" globally and again inside a function. Log values inside and
-outside the function. What do you observe? */
-    var role="teacher";
-    function question5(){
-      var role="seacher";
-      console.log(role);//seacher
-    }
-     question5();
+//      /*5. Declare var role = "teacher" globally and again inside a function. Log values inside and
+// outside the function. What do you observe? */
+//     var role="teacher";
+//     function question5(){
+//       var role="seacher";
+//       console.log(role);//seacher
+//     }
+//      question5();
 
-    console.log(role);//teacher
-
-
+//     console.log(role);//teacher
 
 
-    /* : Function Scope */
-   /* 6. Declare a variable inside a function using let. Try accessing it outside the function.
-What error do you get?*/
-     /*function question6(){
-      let app="apple";
 
-     }
-     question6();
-     console.log(app);*/  // not defined
+
+//     /* : Function Scope */
+//     6. Declare a variable inside a function using let. Try accessing it outside the function.
+// What error do you get?*/
+//      /*function question6(){
+//       let app="apple";
+
+//      }
+//      question6();
+//      console.log(app);  // not defined
      
 
-/*7. Inside a function, declare let x = "outer", then define another function inside it that
-declares let x = "inner". Log both values. What will be printed?*/
-    /*function question7(){
-      let x="outer";
-      let x="inner";
-      console.log(outer);
-      console.log(inner);// it's showing it has been already declared
+// /*7. Inside a function, declare let x = "outer", then define another function inside it that
+// declares let x = "inner". Log both values. What will be printed?*/
+//     function question7(){
+//       let x="outer";
+//       let x="inner";
+//       console.log(outer);
+//       console.log(inner);// it's showing it has been already declared
       
       
-    }
-    question7();*/
+//     }
+//     question7();
 
-/*8. Inside a function, log a variable before declaring it using var. Then declare and log it
-again. What’s the output?*/
-     function question8() {
-      console.log(banana);//undefined
-      var banana="40"
-      console.log(banana);//40
+// /*8. Inside a function, log a variable before declaring it using var. Then declare and log it
+// again. What’s the output?*/
+//      function question8() {
+//       console.log(banana);//undefined
+//       var banana="40"
+//       console.log(banana);//40
       
       
-     }
-     question8();
+//      }
+//      question8();
 
-/*9. Use var i in a loop inside a function. Try logging i outside the loop but still inside the
-function. What happens?*/
-   function question9() {
+// /*9. Use var i in a loop inside a function. Try logging i outside the loop but still inside the
+// function. What happens?*/
+//    function question9() {
     
-    for (i=0;i<=5;i++);
-       var i="6";
-       console.log(i);
-    console.log(i);   
-   }
-   question9();
+//     for (i=0;i<=5;i++);
+//        var i="6";
+//        console.log(i);
+//     console.log(i);   
+//    }
+//    question9();
    
    
 
-/*10. Write a function with a parameter id. Inside it, redeclare var id = 100. What gets
-printed when you call show(5)?*/
+// /*10. Write a function with a parameter id. Inside it, redeclare var id = 100. What gets
+// printed when you call show(5)?*/
 
-  /*function question10(id) {
-    var id="100";
-    show(5);
+//   function question10(id) {
+//     var id="100";
+//     show(5);
     
-  }
-  question10(); */
+//   }
+//   question10(); 
   
 
 
 
-// Block Scope
+// // Block Scope
 
 
- /* 11. Declare let secret = "hidden" inside {}. Try logging it outside the block. What do you
-observe?*/
-/*if(true){
-  let secret="hidden";
+//  // 11. Declare let secret = "hidden" inside {}. Try logging it outside the block. What do you
+// //observe?*/
+// if(true){
+//   let secret="hidden";
 
-}
-console.log(secret);*/
+// }
+// console.log(secret);
 
 
 
-/*12. Inside a block, log a variable before declaring it with let. What error do you see?*/
+// /*12. Inside a block, log a variable before declaring it with let. What error do you see?*/
 
-/*if(true){
-  console.log(question12);
-  let question12="q_12"// it cannot be initialized without declaring
+// if(true){
+//   console.log(question12);
+//   let question12="q_12"// it cannot be initialized without declaring
   
-}*/
-/*13. Declare let score = 90 outside a block and again let score = 70 inside a block. Log
-both. What’s printed and why?*/
-let score="90";
-if(true){
-  let score="70";
-  console.log(score);//70
+// }
+// /*13. Declare let score = 90 outside a block and again let score = 70 inside a block. Log
+// both. What’s printed and why?*/
+// let score="90";
+// if(true){
+//   let score="70";
+//   console.log(score);//70
   
-}
-console.log(score);//90
+// }
+// console.log(score);//90
 
-/*14. Use const user = { name: "Avi" }. Change the name property and reassign the object.
-What works and what doesn’t?*/
-/*const user={ name: "Avi"};
-user={age:"20"};*/
-
-
-
-/*15. Declare var status = "active" inside one block and let status = "inactive" inside
-another. Try logging status outside both blocks.*/
-
-if(true){
-  var status="active";
-
-}
-if(true){
-  let status="inactive";
-}
-console.log(status);
+// /*14. Use const user = { name: "Avi" }. Change the name property and reassign the object.
+// What works and what doesn’t?*/
+// const user={ name: "Avi"};
+// user={age:"20"};
 
 
-// Mixed concept tasks
 
-/* 16. Declare var name = "Global" globally. Inside a function, declare var name = "Function"
-, and inside a block declare let name = "Block". Log all three values. What are the
-outputs?*/
-   var name="global";
-   function question16() {
-    var name="Function"
-    //let name="Block"// it is showing name has been already declared.
-    console.log(name);
+// /*15. Declare var status = "active" inside one block and let status = "inactive" inside
+// another. Try logging status outside both blocks.*/
+
+// if(true){
+//   var status="active";
+
+// }
+// if(true){
+//   let status="inactive";
+// }
+// console.log(status);
+
+
+// // Mixed concept tasks
+
+// /* 16. Declare var name = "Global" globally. Inside a function, declare var name = "Function"
+// , and inside a block declare let name = "Block". Log all three values. What are the
+// outputs?*/
+//    var name="global";
+//    function question16() {
+//     var name="Function"
+//     let name="Block"// it is showing name has been already declared.
+//     console.log(name);
     
     
-   }
-   question16();
-   console.log(name);
+//    }
+//    question16();
+//    console.log(name);
    
    
    
 
-/*17. Inside a function, log a variable before declaring it using var. What is the behavior and
-why?*/
-function question17(){
-  console.log(q17);
-  var q17="q_17"// undefined , because the hoisting has been taking place and the value will be assigned as undefined before assigning so it will show undefined in the case of var.
+// /*17. Inside a function, log a variable before declaring it using var. What is the behavior and
+// why?*/
+// function question17(){
+//   console.log(q17);
+//   var q17="q_17"// undefined , because the hoisting has been taking place and the value will be assigned as undefined before assigning so it will show undefined in the case of var.
   
-}
-question17();
-/*18. Inside a function, declare let x = 10 inside an if block, then log x outside the block.
-Does it work?*/
-/*function question18(){
-  if(true){
-    let x=10;
-  }
-  console.log(x);//x is not defined , because let is a block scope 
+// }
+// question17();
+// /*18. Inside a function, declare let x = 10 inside an if block, then log x outside the block.
+// Does it work?*/
+// function question18(){
+//   if(true){
+//     let x=10;
+//   }
+//   console.log(x);//x is not defined , because let is a block scope 
   
-}
-question18();*/
-/*19. Declare var a = 1 and let b = 2 inside a block. Try logging both variables outside the
-block. What happens?*/
-  /*if(true){
-    var a=1;
-    let z=2;
-  }
-  console.log(a);//1
-  console.log(z);// it is not defined*/
+// }
+// question18();
+// /*19. Declare var a = 1 and let b = 2 inside a block. Try logging both variables outside the
+// block. What happens?*/
+//   if(true){
+//     var a=1;
+//     let z=2;
+//   }
+//   console.log(a);//1
+//   console.log(z);// it is not defined
   
   
-/*20. Declare var id = 1 globally. Inside a function, redeclare var id = 2, and inside a block,
-declare let id = 3. Log the values at each level and explain the result.*/
+// /*20. Declare var id = 1 globally. Inside a function, redeclare var id = 2, and inside a block,
+// declare let id = 3. Log the values at each level and explain the result.*/
 
-   var id=1;
-   function question20(){
-    var id=2;
-    if (true) {
-      let id=3;
-      console.log(id);//3
-    }
-    console.log(id);//2
+//    var id=1;
+//    function question20(){
+//     var id=2;
+//     if (true) {
+//       let id=3;
+//       console.log(id);//3
+//     }
+//     console.log(id);//2
     
-   }
-   question20();
-   console.log(id);//1
-   // because in block the let is the parent so it will show the declared value
-   //in function scope it will scan the function so it will show 2,in outside the global is parent.
+//    }
+//    question20();
+//    console.log(id);//1
+//    // because in block the let is the parent so it will show the declared value
+//    //in function scope it will scan the function so it will show 2,in outside the global is parent.
    
-
-
-
-
-
-
-
-
-
-
-
-
     </script>
 </body>
 </html>  
@@ -284,6 +272,6 @@ declare let id = 3. Log the values at each level and explain the result.*/
 
 
 
-    </script>
+    
 </body>
 </html>

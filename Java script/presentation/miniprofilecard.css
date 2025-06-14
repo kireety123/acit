@@ -2,7 +2,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    
 }
 
 
@@ -21,7 +21,7 @@ body{
     gap: 50px;
     padding: 20px;
     margin-top: 300px;
-    margin-left: 80px;
+    margin-left: 250px;
     position: relative;
     left: 140px;
     height: 200px;
