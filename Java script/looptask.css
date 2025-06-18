@@ -1,0 +1,25 @@
+#productcard{
+ display:flex;
+ gap: 100px;
+ margin-left: 200px;
+ width: fit-content;
+ align-items: center;
+ margin-top: 200px;
+ 
+}
+#profilecard0{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#profilecard1{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

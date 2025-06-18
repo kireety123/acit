@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOOP TASK</title>
+    <link rel="stylesheet" href="looptask.css">
+</head>
+<body>
+    <!-- 1st question . Product List as Bullet Points -->
+    <!-- <ul id="unorderlists"></ul> -->
+
+    <!-- 2nd question Discount Table -->
+     <!-- <table id="tabledata">
+        <tr>
+                <th>original price-----</th>
+                <th>discount price</th>
+                </tr>        
+     
+     </table> -->
+
+     <!-- 3rd question Display Product Cards -->
+      <!-- <div id="productcard"></div> -->
+
+      <!-- 4th question Build Order Summary Table -->
+
+      <!-- <table id="ordertable">
+         <th>S.NO</th>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Total</th>
+           
+      </table> -->
+
+      <!-- 5th question Show Only Products with Stock -->
+       <!-- <p id="stockdet"></p> -->
+
+       <!-- 6th question  Countdown Display -->
+         <!-- <div id="count1to10"></div>  -->
+
+        <!-- 7th question Find Item Until Match-->
+          <!-- <div id="finditem"></div>  -->
+
+         <!-- 8th Calculate Cart Total -->
+          <!-- <div id="carttotal"></div> -->
+
+          <!-- 9th Show Stock-Based Product List -->
+            <!-- <div id="stockbased"></div>  -->
+
+            <!-- 10th  Show First 3 Products from Array  -->
+             <!-- <ul id="first3"></ul>  -->
+
+            <!-- 11th Add to Cart Simulation -->
+             <!-- <p id="addtocart"></p> -->
+
+            <!-- 17th. Inventory Table with Total Value -->
+             <!-- <table id="Inventory">
+                <tr>
+                     <th>Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Stockvalue</th>
+                </tr>
+             </table> -->
+
+             <!-- 18th Compare Cart Price and Budget -->
+              <!-- <div id="Comparecpb"></div> -->
+
+              <!-- 19th Show Products by Type -->
+               <!-- <div id="productsbytype"></div> -->
+
+               <!-- star printing -->
+                <pre id="stars"></pre>
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <script>
+        //1st one
+        // let products = ["Laptop", "Mobile", "Camera", "Shoes", "Earphones"];
+        // for (let i = 0; i <  products.length; i++) {
+        //     unorderlists.innerHTML += `<li>${products[i]}</li>` 
+        // }
+
+        // 2nd one
+        // let prices = [1000, 2000, 3000, 1500];
+        // for (let i = 0; i < prices.length; i++) {
+        //     tabledata.innerHTML += 
+        //     `
+        //      <tr id="price">
+        //         <td id="op">${prices[i]}</td>
+        //         <td id="dp">${prices[i]-(prices[i]*0.1)}</td>
+        //      </tr>   
+        //      `   
+        // }
+
+        //3rd one 
+
+        // let productcards=[
+        //   { name: "Shirt", price: 500, category: "Clothing" },
+        //    { name: "Watch", price: 1200, category: "Accessories" }
+        //  ]
+
+        //  for (let i = 0; i < productcards.length; i++) {
+        //     productcard.innerHTML +=
+        //     `<div
+        //      id="profilecard${i}">${productcards[i].name}<br>
+        //      ${productcards[i].price}<br>
+        //      ${productcards[i].category}
+        //         </div> `
+            
+        //  }
+
+        // 4th one 
+
+    //     let orderobjects=
+    //     [
+    //         {name: 'Diarymilk', quantity: 2,price: 40},
+
+    //         {name:'Thumsup',quantity:3,price:20},
+
+    //         {name:'Goodday',quantity:4,price:60}
+
+    // ]
+    // for (let i = 0; i < orderobjects.length; i++) {
+    //     ordertable.innerHTML += `
+    //     <tr id="details">
+    //         <td id="num">${i+1}</td>
+    //         <td id="name">${orderobjects[i].name}</td>
+    //         <td id="name">${orderobjects[i].quantity}</td>
+    //         <td id="name">${orderobjects[i].price}</td>
+    //         <td id="name">${orderobjects[i].quantity*orderobjects[i].price}</td>
+    //         </tr>
+    //         `
+    // }
+
+    // 5th one
+
+        //   let stocks=[
+        //     { name: "Keyboard", stock: 3 },
+        //      { name: "Mouse", stock: 0 },
+        //     { name: "Charger", stock: 2 }
+        //   ]
+        //   for (let i = 0; i < stocks.length; i++) {
+        //     if (stocks[i].stock>0) {
+        //         document.getElementById("stockdet").innerText+=stocks[i].name+" - "
+        //         document.getElementById("stockdet").innerText+=stocks[i].stock+",  "    
+        //     }
+        //   }
+
+        // 6th one
+
+        //  let i=10;
+        //  let message=""
+        //  while(i<11&&i>0){
+        //      message=i;
+        //     document.getElementById("count1to10").innerHTML+=`<p>${message}</p><br>`
+        //      i--
+        //  }
+         
+
+        // 7th one 
+
+        // let items=["phone","mobile","laptop","camera","TV"]
+        //  let message=""
+        
+        //  for (let i = 0; items[i] != "camera"; i++) {
+        //     message=items[i]
+       
+        //          document.getElementById("finditem").innerHTML+=`<p>${message}<p><br>`
+        //    }
+            
+        // 8th one 
+
+        //  let cart = [499, 299, 1299, 999];
+        //  let i=0;
+        //  let sum=0;
+        //  while(i<cart.length){
+        //       sum+=cart[i]
+        //       i++;
+        //  }
+        //  document.getElementById("carttotal").innerText=sum
+
+        // 9th one
+
+            //     let stockbased=     [
+            // { name: "Keyboard", stock: 3 },
+            // { name: "Charger", stock: 2 },
+            // {name: "mobile",stock : 5},
+            // { name: "Mouse", stock: 0 },
+            // {name:"laptop",stock:7}
+            
+            // ]
+            // let i=0;
+            // while(i<stockbased.length&&stockbased[i].stock>0){
+            //          document.getElementById("stockbased").innerHTML+=`<p>${stockbased[i].name}, ${stockbased[i].stock} </p>`
+                  
+                
+            //     i++;
+                   
+                
+            // }
+
+             //10th one
+        //   let products=["kireety","kittu","varma","veera","venkata"]
+        //       for (let i = 0; i < products.length; i++) {
+        //         if (i<3) {
+        //             document.getElementById("first3").innerHTML+=`<li>${products[i]}</li><br>`
+        //         }
+        //       }
+            //  11th one
+            //    let i=0;
+            //    let attempts;
+            //    let input;
+            //    for (let i= 0; i< 5;i++){
+            //     input=prompt("enter value")
+            //     attempts+=1;
+                
+            //    }
+            //    document.getElementById("addtocart").innerText=attempts
+
+        //17th one
+
+    //      let inventoryobjects=
+    //    [
+    //         {name: 'Diarymilk', price: 40,quantity:2},
+
+    //        {name:'Thumsup',price:20,quantity:3},
+
+    //         {name:'Goodday',price:60,quantity:4,}
+
+    //      ]
+    //      for (let i = 0; i < inventoryobjects.length; i++) {
+    //         Inventory.innerHTML+=
+    //         `<tr>
+    //             <td>${inventoryobjects[i].name}</td>
+    //             <td>${inventoryobjects[i].price}</td>
+    //             <td>${inventoryobjects[i].quantity}</td>
+    //             <td>${inventoryobjects[i].price*inventoryobjects[i].quantity}</td>
+
+                
+    //             </tr>`
+            
+    //      }
+
+    // 18th one 
+        // let cart=[1000,1220,680,550,1340]
+        // let sum;
+        // let message;
+        // for (let i = 0; i < cart.length; i++) {
+        //     sum+=i;
+        // }
+        // if(sum>5000){
+
+        //         message="Budget exceeded"
+        //         document.getElementById("Comparecpb").innerHTML=`<p>${message}</p>`
+        // }
+        // else{
+        //     message="Within budget"
+        //     document.getElementById("Comparecpb").innerHTML=`<p>${message}</p>`
+        // }
+        
+        // 19th one
+          
+        // let productsdet=[
+        //     {name:"Clothing",
+        //         items:["jeans","cargo","baggy"]
+        //     },{
+        //         name:"Electronics",
+        //         items:["phone","laptop","earbuds"]
+        //     },{name:"Accessories",
+        //         items:["smart watch","chains","perfume"]
+        //     }
+        // ]
+        // for (let i = 0; i < productsdet.length; i++) {
+        //     productsbytype.innerHTML+=`<p>${productsdet[i].name}</p><p>${productsdet[i].items}</p>`
+            
+        // }
+
+        // * problem
+        // 
+        // for (let i = 0; i < 6; i++) {
+        //     for(let j=0;j<i;j++){
+                
+        //         stars.innerHTML+=`${"*"}`
+        //     }
+        //     stars.innerHTML+=`<p></p>`
+
+                
+        // }
+
+        //reverse left angle triangle
+
+        
+        // for (let i = 0; i < 6; i++) {
+        //     for (let j = 6; j>i; j--) {
+        //         stars.innerHTML+=`${"*"}`
+                
+        //     }
+        //     stars.innerHTML+=`<p></p>`
+            
+        // }
+
+        // right
+
+        // let n=6;
+        // let row="";
+        // for (let i = 0; i < n; i++) {
+            
+        //     for (let s = 0; s < n-i; s++) {
+                
+        //         row+=" ";
+                
+        //     }
+        //     for (let j = 0; j <= i; j++) {
+        //         row+="*";
+                
+        //     }
+        //    row+=`\n`
+        // }
+        //  stars.innerHTML+=`${row}`;
+
+        // inverse 
+        
+        // let n=6;
+        // let row ="";
+        // for (let i = 6; i >0; i--) {
+        //     for (let s = 0; s < n-i; s++) {
+        //         row+=" ";   
+        //     }
+        //     for (let j = 0; j <i; j++) {
+        //         row+="*"
+                
+        //     }
+        //     row+=`\n`
+        // }
+        // stars.innerHTML+=`${row}`;
+
+        // 1,2,3,4 pattern
+        
+        // let num="";
+        // for (let i = 0; i < 6; i++){
+        //     num+=`${i+1}`
+        //     stars.innerHTML=`${num}\n`
+            
+        // }
+
+        // 1,0,1 triangle
+
+        // for (let i = 0; i < 6; i++) {
+        //     for (let j = 0; j < i; j++) {
+        //         if ((i%2==0&&j%2!=0)|(i%2!=0&&j%2==0)) {
+        //             stars.innerHTML+=`${1}`
+        //         } else {
+        //             stars.innerHTML+=`${0}`
+        //         }  
+        //     }
+        //     stars.innerHTML+=`\n`
+        // }
+
+        // odd and even seperation
+
+        let n=4;
+        let num="";
+        for (let i =1; i<5 ; i++) {
+            for (let s = 0; s<n-i; s++) {
+                 num+=" "   
+            }if (i%2==0) {
+                for (let j = 1;j<=n+i ; j--) {
+                   if (j%2==0&&j<=12) {
+                    num+=j
+                   } else {
+                    num+=" "
+                   }
+                
+                }
+            }
+            else if (i%2!=0) {
+                for (let j = 0;j<=i+2 ; j++){
+                    if (j%2!=0) {
+                        num+=j
+                    }
+                    else{
+                        num+=" "
+                    }
+                }
+            }  
+            num+=`\n`  
+        }
+        stars.innerHTML+=`${num}`
+
+          </script>
+
+
+
+
+
+            
+            
+
+
+
+
+ 
